@@ -1,0 +1,22 @@
+# Django-specific #
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Ignore the virtual environment directory
+venv/
+.venv/
+
+# Ignore IDE specific files
+.idea/
+
+# Ignore .env file for environment variables
+.env
+
+# Ignore mypy
+.mypy_cache/
+
+# Ignore pytest
+.pytest_cache/
